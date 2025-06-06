@@ -13,35 +13,23 @@ const placeholderImage = "https://hotellobbycandle.com/cdn/shop/files/Signature_
 
 const products = [
 	{
-		name: "Vanilla Bean Bliss",
+		name: "Apple Cinnamon",
 		description: "Warm vanilla with a hint of caramel.",
-		price: "$18",
+		price: "$11.99",
 		image: placeholderImage,
 	},
 	{
 		name: "Lavender Serenity",
 		description: "Relaxing lavender blend for calm evenings.",
-		price: "$20",
+		price: "$11.99",
 		image: placeholderImage,
 	},
 	{
-		name: "Citrus Zest",
+		name: "Cucumber & Melon",
 		description: "Bright citrus mix to energize your space.",
-		price: "$19",
+		price: "11.99",
 		image: placeholderImage,
-	},
-	{
-		name: "Rosewood Whisper",
-		description: "Delicate rosewood aroma with earthy undertones.",
-		price: "$21",
-		image: placeholderImage,
-	},
-	{
-		name: "Amber Twilight",
-		description: "Deep amber and spice for cozy nights.",
-		price: "$22",
-		image: placeholderImage,
-	},
+	}
 ];
 
 export default function HomePage() {
